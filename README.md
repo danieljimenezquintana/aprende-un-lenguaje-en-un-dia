@@ -69,7 +69,27 @@ fun main(args : Array<String>) {
 ### 2. Pirámide
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
-
+```kotlin
+fun main(args : Array<String>) {
+	print("Introduce la altura de la pirámide: ")
+	var altura = readLine()!!.toInt()
+	var nivel = 1
+	var longitud = 1
+	var espacios = altura - 1
+	while (nivel <= altura) {
+		for (i in 1..espacios) {
+			print(" ")
+		}
+		for (i in 1..longitud) {
+			print("*")
+		}
+		println()
+		nivel++
+		espacios--
+		longitud += 2
+	}
+}
+```
 ### 3. Arrays y números aleatorios
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
