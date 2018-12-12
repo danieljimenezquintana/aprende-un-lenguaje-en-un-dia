@@ -26,11 +26,9 @@ Para añadir colaboradores hay que hacer click en la pestaña *Settings* y selec
 
 ## Miembros del grupo
 
-Escribe aquí los miembros del grupo. El primero es el representante o encargado.
-
-* Alan Brito
-* Elba Lazo
-* Esteban Quito
+* Jose Daniel Jiménez Quintana
+* Jose Maria Gómez Martín
+* Ernezto Velasco Soler
 
 ## Lenguaje de programación
 
