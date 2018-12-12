@@ -48,9 +48,7 @@ Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe 
 
 El software elegido para programar en Kotlin ha sido Eclipse y puedes descargarlo pinchando [aquí](https://www.eclipse.org/downloads/)
 Una vez instalado Eclipse, pinchamos en Help y luego en Eclipse Marketplace y buscamos Kotlin.
-<img src="
-        aprende-un-lenguaje-en-un-dia/ImagenesKotlin/Captura de pantalla (12).png
-      ">
+<img src="ImagenesKotlin/Captura de pantalla (12).png">
 
 
 ## Poniendo en práctica el lenguaje
