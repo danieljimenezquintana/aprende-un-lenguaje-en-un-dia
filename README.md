@@ -36,7 +36,7 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 
 Escribe el lenguaje de programación elegido por el grupo.
 
-* Mi lenguaje
+* Kotlin
 
 Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
 
@@ -55,6 +55,10 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 ### 1. ¡Hola mundo!
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
+
+fun main(args : Array<String>) {
+    println("Hello, World!")
+}
 
 ### 2. Pirámide
 
