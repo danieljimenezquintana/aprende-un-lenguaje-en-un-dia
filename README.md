@@ -42,13 +42,12 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 
 ## Información sobre el lenguaje
 
-Kotlin es un lenguaje para aplicaciones multiplataforma que es 100% interoperable con Java y Android y que se ejecuta en la JVM y que también se puede transpilar a javaScript para hacer aplicaciones para navegadores y además Google lo ha hecho oficial para Android
-
-[Fuente - ]
+Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
 
 ## Herramientas de desarrollo
 
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
+El software elegido para programar en Kotlin ha sido Eclipse y puedes descargarlo pinchando [aquí](https://www.eclipse.org/downloads/)
+Una vez instalado Eclipse, pinchamos en Help y luego en Eclipse Marketplace y buscamos Kotlin.
 
 ## Poniendo en práctica el lenguaje
 
@@ -57,11 +56,10 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 ### 1. ¡Hola mundo!
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
-``` kotlin
+
 fun main(args : Array<String>) {
     println("Hello, World!")
 }
-```
 
 ### 2. Pirámide
 
