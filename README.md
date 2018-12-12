@@ -104,29 +104,26 @@ fun main(args: Array<String>) {
 	var altura = 1
 	var relleno : String = "*"
 	while (altura<alturaIntroducida){
-	//Creamos los espacios delante de la pirámide
-	for (num in  0..espaciosPorDelante){
-		print(" ")
-	}
-	//Pintar los bordes del árbol
-	print(relleno)
-	for(num in 1..espaciosInternos){
-		print(" ")
-	}
-	if(altura>1){
+		for (num in  0..espaciosPorDelante){
+			print(" ")
+		}
 		print(relleno)
+		for(num in 1..espaciosInternos){
+			print(" ")
+		}
+		if(altura>1){
+			print(relleno)
+		}
+		println()
+		altura++
+		espaciosPorDelante--
+		espaciosInternos+=2
+		}
+		print(" ")
+		for(num in 1..altura*2){
+		print(relleno)
+		}
 	}
-	println()
-	altura++
-	espaciosPorDelante--
-	espaciosInternos+=2
-	}
-    //Base de la Pirámide
-	print(" ")
-	for(num in 1..altura*2){
-	print(relleno)
-	}
-}
 ```
 ### 3. Arrays y números aleatorios
 
