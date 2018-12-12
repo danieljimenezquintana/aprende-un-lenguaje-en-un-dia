@@ -42,8 +42,9 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+Kotlin es un lenguaje para aplicaciones multiplataforma que es 100% interoperable con Java y Android y que se ejecuta en la JVM y que también se puede transpilar a javaScript para hacer aplicaciones para navegadores y además Google lo ha hecho oficial para Android
 
+[Fuente - ]
 
 ## Herramientas de desarrollo
 
