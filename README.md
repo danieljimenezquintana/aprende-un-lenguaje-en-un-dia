@@ -71,6 +71,8 @@ fun main(args : Array<String>) {
 ### 2. Pirámide
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+
+Pirámide rellena:
 ```kotlin
 fun main(args : Array<String>) {
 	print("Introduce la altura de la pirámide: ")
@@ -89,6 +91,40 @@ fun main(args : Array<String>) {
 		nivel++
 		espacios--
 		longitud += 2
+	}
+}
+```
+Pirámide hueca:
+```kotlin
+fun main(args: Array<String>) {
+	println("Introduzca la altura de la pirámide: ")
+	var alturaIntroducida = readLine()!!.toInt()
+	var espaciosPorDelante = alturaIntroducida-1
+	var espaciosInternos = 0
+	var altura = 1
+	var relleno : String = "*"
+	while (altura<alturaIntroducida){
+	//Creamos los espacios delante de la pirámide
+	for (num in  0..espaciosPorDelante){
+		print(" ")
+	}
+	//Pintar los bordes del árbol
+	print(relleno)
+	for(num in 1..espaciosInternos){
+		print(" ")
+	}
+	if(altura>1){
+		print(relleno)
+	}
+	println()
+	altura++
+	espaciosPorDelante--
+	espaciosInternos+=2
+	}
+    //Base de la Pirámide
+	print(" ")
+	for(num in 1..altura*2){
+	print(relleno)
 	}
 }
 ```
