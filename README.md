@@ -28,7 +28,7 @@ Para añadir colaboradores hay que hacer click en la pestaña *Settings* y selec
 
 * Jose Daniel Jiménez Quintana
 * Jose Maria Gómez Martín
-* Ernezto Velasco Soler
+* Ernesto Velasco Soler
 
 ## Lenguaje de programación
 
