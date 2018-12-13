@@ -131,6 +131,54 @@ fun main(args: Array<String>) {
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
 
+```kotlin
+fun random(n: Int) = (Math.random() * n).toInt() 
+fun random(from: Int, to: Int) = (Math.random() * (to - from) + from).toInt() 
+fun random(pair: Pair<Int, Int>) = random(pair.first, pair.second) 
+
+fun esPrimo(n: Int): Boolean {
+	var x = true
+	for (i in 2..(n - 1)) {
+		if ((n % i) == 0) {
+			x = false
+		}
+	}
+	return x
+}
+fun main(args : Array<String>) {
+	
+	var num = IntArray(20, { i -> random(1, 100)})
+	var aux = IntArray(20)
+	var j = 0
+	
+	
+	num.forEach {
+		print("$it ");
+	}
+	
+	for(e in 0..19) {
+		if (esPrimo(num[e])) {
+			aux[j] = num[e]
+	        j++
+		}
+	}
+	for(e in 0..19) {
+		if (!esPrimo(num[e])) {
+			aux[j] = num[e]
+	        j++
+		}
+	}
+	println("")
+	println("");
+	    
+	aux.forEach {
+		print("$it ");
+	}
+}
+```
+
+<img src="ImagenesKotlin/EjjercicioArrays.png">
+
 ## Presentación de resultados
 
 Cada equipo explicará al resto de la clase lo aprendido durante la realización del ejercicio. Todos los miembros de cada equipo deben participar en la explicación. Se puede utilizar como material de base para la presentación el repositorio de GitHub.
